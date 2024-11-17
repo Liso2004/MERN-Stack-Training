@@ -11,7 +11,7 @@ const Navbar = () => {
   const {colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <Container maxW="1140px" px={4}>
+    <Container maxW={"1140px"} px={4}>
     <Flex
       height={16}
       alignItems="center"
@@ -48,4 +48,4 @@ bgClip={"text"}
 
 export default Navbar
 
-// video time stamp 1:10:26 
+// video time stamp 1:12:21 
